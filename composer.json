@@ -1,0 +1,21 @@
+{
+    "name": "gm/php-common",
+    "description": "Библиотека общих классов PHP.",
+    "type": "metapackage",
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/gleb-mihalkov/php-common-singleton"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/gleb-mihalkov/php-common-transaction"
+        }
+    ],
+    "require": {
+        "gm/php-common-singleton": "dev-master",
+        "gm/php-common-transaction": "dev-master"
+    }
+}
