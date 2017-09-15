@@ -11,3 +11,5 @@
 * [TSingleton](https://github.com/gleb-mihalkov/php-common-singleton)
 
 * [ITransaction](https://github.com/gleb-mihalkov/php-common-transaction)
+
+* [IDisposable](https://github.com/gleb-mihalkov/php-common-disposable)

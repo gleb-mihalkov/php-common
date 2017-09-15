@@ -12,10 +12,15 @@
         {
             "type": "vcs",
             "url": "https://github.com/gleb-mihalkov/php-common-transaction"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/gleb-mihalkov/php-common-disposable"
         }
     ],
     "require": {
         "gm/php-common-singleton": "dev-master",
-        "gm/php-common-transaction": "dev-master"
+        "gm/php-common-transaction": "dev-master",
+        "gm/php-common-disposable": "dev-master"
     }
 }
